@@ -1,38 +1,147 @@
 <html>
-  <head><title>Guyer CS Club - Members</title>
+  <head>
+    <title>Guyer CS Club - Members</title>
     <meta name="msvalidate.01" content="1649F41A0EF402A8B4730E23EFB52425" />
     <meta name="title" content="Guyer CS Club Member List">
     <meta name="description" content="Official website of Guyer High School Computer Science Club. Meeting is on Every Tuesdays after school at room B281">
     <meta name="keywords" content="Guyer High School, Computer Science Club, Denton ISD, Coding Club, Python, JavaScript, Hackathons">
     <meta name="author" content="Guyer CS Club">
-    <link rel="icon" href="/assets/1000x1000.original.png" type="image/png">
+    <link rel="icon" href="https://guyercs.org/assets/1000x1000.original.png" type="image/png">
   </head>
+
   <style>
     .p1 {
-        text-align: left;
-        line-height: 1.6;
-        font-size: 16px;
-        margin: 20px auto;
-        padding: 0 15px;
-        max-width: 700px;
-        width: 80%;
+      text-align: left;
+      line-height: 1.6;
+      font-size: 16px;
+      margin: 20px auto;
+      padding: 0 15px;
+      max-width: 700px;
+      width: 80%;
+    }
+
+    .member-list {
+      width: 80%;
+      max-width: 800px;
+      margin: 20px auto;
+      text-align: left;
+    }
+
+    .member {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 12px 0;
+      border-bottom: 1px solid #d9d9d9;
+    }
+
+    .member img {
+      width: 80px;
+      height: 80px;
+      min-width: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .member-info {
+      flex: 1;
+    }
+
+    .member-info h3 {
+      margin: 0 0 4px;
+      color: #28613b;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .member-info .role {
+      margin: 0 0 5px;
+      color: #777777;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .member-info .description {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 500px) {
+      .member-list {
+        width: 90%;
       }
+
+      .member {
+        gap: 12px;
+      }
+
+      .member img {
+        width: 65px;
+        height: 65px;
+        min-width: 65px;
+      }
+
+      .member-info h3 {
+        font-size: 16px;
+      }
+    }
   </style>
+
   <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#551a8b">
-    
+
     <center>
-      <img src="https://guyercs.org/assets/1000x1000.original.png" alt="Guyer CS Club Logo" width="100" height="100">
+      <img src="https://guyercs.org/assets/1000x1000.original.png"
+           alt="Guyer CS Club Logo" width="100" height="100">
+
       <h1>Guyer Computer Science Club</h1>
-            <input type="button" value=" Home " onclick="window.location.href='/';">
-            <input type="button" value=" Meet our Members " onclick="window.location.href='/members';">
+
+      <input type="button" value=" Home "
+             onclick="window.location.href='/';">
+
+      <input type="button" value=" Meet our Members "
+             onclick="window.location.href='/members';">
+
       <hr width="80%" size="2" noshade>
-      
-      <h2>Coming Soon!</h2>
-      <p>You came across a page we are still working on.</p>
+
+      <h2>Meet our Members!</h2>
+
+      <p class="p1">
+        Meet our members! This page highlights each member’s knowledge,
+        skills, and areas of expertise. If you have a question about a
+        particular topic or need help with a project, use this page to
+        find someone with the experience and knowledge to help you out.
+      </p>
+
       <hr width="50%" size="1" noshade>
-      
+    </center>
+<!--Format-->
+    <!--<div class="member-list">
+
+      <div class="member">
+        <img src="/assets/members/picture.png"
+             alt="Member Name">
+
+        <div class="member-info">
+          <h3>Member Name</h3>
+          <p class="role">Club President</p>
+          <p class="description">
+            Put Description here
+          </p>
+        </div>
+      </div> -->
+
+
+    </div>
+
+    <center>
       <footer>
-        <p><font size="2">If you are a member of the club, and would like to contribute, please shoot a message in our groupme or discord</font></p>
+        <p>
+          <font size="2">
+            If you are a member of the club, and would like to contribute,
+            please shoot a message in our groupme or discord
+          </font>
+        </p>
       </footer>
     </center>
 
