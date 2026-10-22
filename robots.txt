@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.guyercs.org/sitemap.xml
+# Content signals
+# search: yes
+# ai-input: yes
+# ai-train: yes
